@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Mechewallet" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dashboard_green</item>
+        <item name="colorPrimaryDark">@color/dashboard_green</item>
+        <item name="colorAccent">@color/dashboard_green</item>
+        <item name="colorSecondary">@color/dashboard_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/text_dark_grey</item>
+        <item name="android:textColorSecondary">@color/text_light_grey</item>
+        <item name="android:statusBarColor">@color/dashboard_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
