@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: mechewallet-backend
+    restart: always
+    ports:
+      - "2095:2095"
+    networks:
+      - internal
+    environment:
+      NODE_ENV: production
+    user: "1000:1000"
+
+networks:
+  internal:
+    driver: bridge
